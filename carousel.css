@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(184, 181, 181);
+    gap: 10px;
+}
+.images {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: pink;
+}
+.images div {
+    width: 150px;
+    height: 300px;
+    border: solid 2px solid;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+button {
+    border-radius: 50%;
+    border: solid black 1px;
+}
